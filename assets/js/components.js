@@ -2,7 +2,7 @@
    KOMPONEN PAKAI-ULANG : header & footer dirender sekali di sini.
    ★ Ganti WA_NUMBER di bawah → semua tombol "Pesan/Chat" ikut berubah.
    ========================================================================== */
-const WA_NUMBER = "6281234567890"; // ← ganti dengan nomor WhatsApp-mu
+const WA_NUMBER = "6285325730777"; // ← ganti dengan nomor WhatsApp-mu
 const waLink = (text) => `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text || "Halo Etalase Studio, saya mau bertanya.")}`;
 
 const NAV = [
