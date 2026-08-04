@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontak — Konsultasi Gratis | Etalase Studio</title>
+<meta name="description" content="Hubungi Etalase Studio via WhatsApp atau form konsultasi. Respon di bawah 12 jam pada jam kerja. Melayani UMKM di seluruh Indonesia.">
+<link rel="canonical" href="https://etalasestudio.id/kontak.html">
+<meta name="theme-color" content="#F5F1E6">
+<meta property="og:title" content="Kontak Etalase Studio">
+<meta property="og:image" content="https://picsum.photos/seed/etalase-og/1200/630">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✶</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.replace('no-js','js')</script>
+</head>
+<body data-page="kontak.html">
+<a class="skip" href="#main">Langsung ke konten</a>
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <p class="kicker reveal">✶ Kontak</p>
+      <h1 class="reveal">Mampir, <em class="mark">ngobrol</em> dulu</h1>
+      <p class="lead reveal">Isi form di bawah atau langsung WhatsApp — dua-duanya gratis, dua-duanya dibalas manusia (bukan bot).</p>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="container contact-grid">
+      <!-- Form : sambungkan ke Formspree/backend/WA API pada produksi -->
+      <form class="form card reveal" id="contact-form" novalidate>
+        <h2 class="form-title">Form Konsultasi</h2>
+        <div class="field">
+          <label for="f-nama">Nama kamu *</label>
+          <input type="text" id="f-nama" name="nama" autocomplete="name" required>
+          <small class="err" aria-live="polite"></small>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-email">Email *</label>
+            <input type="email" id="f-email" name="email" autocomplete="email" required>
+            <small class="err" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="f-wa">No. WhatsApp *</label>
+            <input type="tel" id="f-wa" name="whatsapp" autocomplete="tel" placeholder="08xxxxxxxxxx" required>
+            <small class="err" aria-live="polite"></small>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-jenis">Yang dibutuhkan *</label>
+            <select id="f-jenis" name="jenis" required>
+              <option value="">— pilih —</option>
+              <option>Website company profile</option>
+              <option>Toko online</option>
+              <option>Aplikasi kasir / stok / lainnya</option>
+              <option>Beli ebook / produk digital</option>
+              <option>Perawatan website</option>
+              <option>Lainnya / belum tahu</option>
+            </select>
+            <small class="err" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="f-budget">Estimasi budget</label>
+            <select id="f-budget" name="budget">
+              <option>Belum tahu</option>
+              <option>&lt; Rp 1 juta</option>
+              <option>Rp 1–5 juta</option>
+              <option>Rp 5–15 juta</option>
+              <option>&gt; Rp 15 juta</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-pesan">Ceritakan bisnismu *</label>
+          <textarea id="f-pesan" name="pesan" rows="5" placeholder="Contoh: saya punya usaha frozen food di Bandung, mau bisa terima pesanan lewat website…" required></textarea>
+          <small class="err" aria-live="polite"></small>
+        </div>
+        <button class="btn btn-accent btn-block" type="submit">Kirim & Mulai Ngobrol ✶</button>
+        <p class="form-success" id="form-success" hidden>✓ Terima kasih! Pesanmu sudah kami terima — kami balas maksimal 12 jam pada jam kerja.</p>
+      </form>
+
+      <aside class="contact-info">
+        <div class="info-card card reveal" style="--d:.05s">
+          <p class="mono">PALING CEPAT</p>
+          <h3>WhatsApp</h3>
+          <p>Respon &lt; 12 jam pada jam kerja.</p>
+          <a class="btn btn-solid js-wa" href="#" data-wa="Halo Etalase Studio, saya dari halaman kontak.">Chat Sekarang ↗</a>
+        </div>
+        <div class="info-card card reveal" style="--d:.1s">
+          <p class="mono">EMAIL</p>
+          <h3>halo@etalasestudio.id</h3>
+          <p>Untuk penawaran resmi, kerja sama, dan lisensi ebook.</p>
+        </div>
+        <div class="info-card card reveal" style="--d:.15s">
+          <p class="mono">STUDIO</p>
+          <h3>Yogyakarta, Indonesia</h3>
+          <p>Senin–Sabtu · 09.00–21.00 WIB.<br>Melayani klien seluruh Indonesia & luar negeri (meeting online).</p>
+        </div>
+        <div class="info-card card info-dark reveal" style="--d:.2s">
+          <h3>Masih ragu?</h3>
+          <p>Lihat-lihat dulu hasil kerja kami — bukti selalu lebih meyakinkan daripada janji.</p>
+          <a class="btn btn-ghost btn-light" href="portfolio.html">Buka Etalase →</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
